@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<header class="head1">
+    <div>
+        <img style="align-self: center" src="photos/logo-small.png" />
+    </div>
+    <div style="align-self: center">
+        <h1>KidKinder</h1>
+    </div>
+    
+    <nav class="navigation">
+
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/class.html">Classes</a>
+        <a href="pages/teachers.html">Teachers</a>
+        <a href="#book">Booking</a>
+        <a href="#contact">Contact</a>
+        
+
+    </nav>
+    <div style="align-self: center">
+        <a class="btn" href="#book">join now</a>
+    </div>
+
+    
+</header>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+    <div class="main">
+        <div class="maincontent" ">
+
+        <div style= " flex: 30%;" class="mainimg" >
+        <img src="photos/headerflip.png" width="400px" >
+        </div>
+
+        <div style= "flex: 30%;  text-align: center; width:700px">
+            <h1 style="font-family: cursive; font-size: 2rem;">Kids Learning Center</h1>
+            <p style="font-family: cursive; font-size: 4rem;">New Approach to Kids Education</p>
+            <p style="font-family: cursive; font-size: 1rem;">Kidkinder is a Waldorf-inspired, tuition-free public charter high school guided by the Core Principles of Public Waldorf Education.  Our program is rigorous, arts-integrated, culturally responsive, and relationship-centered. We celebrate the rich diversity and culture of Tucson and the Sonoran Desert region and engage our students in local and global sustainability.</p>
+        </div>
+        </div>
+    
+    </div>
+    
+
+  <div class="side">
+    
+    <div class="img" >
+        <img src="photos/blog-1.jpg" width="150" />
+
+    </div><br>
+    <div class="img" >
+        <img src="photos/blog-2.jpg" width="150" />
+    </div>
+    <br>
+    <div class="img" >
+        <img src="photos/blog-3.jpg" width="150"/>
+    </div>
+    <br>
+    <div class="img" >
+        <img src="photos/blog-1.jpg" width="150"/>
+    </div>
+  </div>
+  
+</div>
+<hr />
+<!--Video Embed-->
+
+<div class="video" style="padding: 5px; text-align: center; ">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QqHvUnUfwvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+<!--Facilities-->
+<hr />
+<div style="display: flex; " class="facility">
+    <div style="display:flex; flex:60%; flex-wrap: wrap; flex-direction: row; justify-content: center; margin:10px;"> 
+    
+    <div width="300px" >
+        <img src="photos/music.png" />
+        <ul style="text-align: justify;">
+            <li>Indoor and outdoor playing Courts and sports area.<br></li>
+            <li>Amenities for indoor physical activities like table tennis, chess and board games</li>
+        </ul>
+    </div>
+    <div >
+        <img src="photos/play.png" />
+        <ul style="text-align: justify;">
+            <li>Indoor and outdoor playing Courts and sports area.<br></li>
+            <li>Amenities for indoor physical activities like table tennis, chess and board games</li>
+        </ul>
+    </div>
+    <div >
+        <img src="photos/arts.png" />
+        <ul style="text-align: justify;">
+            <li>Indoor and outdoor playing Courts and sports area.<br></li>
+            <li>Amenities for indoor physical activities like table tennis, chess and board games</li>
+        </ul>
+    </div>
+    <div >
+        <img src="photos/transport.png" />
+        <ul style="text-align: justify;">
+            <li>Indoor and outdoor playing Courts and sports area.<br></li>
+            <li>Amenities for indoor physical activities like table tennis, chess and board games</li>
+        </ul>
+    </div>
+    <div >
+        <img src="photos/food.png" />
+        <ul style="text-align: justify;">
+            <li>Indoor and outdoor playing Courts and sports area.<br></li>
+            <li>Amenities for indoor physical activities like table tennis, chess and board games</li>
+        </ul>
+    </div>
+    <div >
+        <img src="photos/tour.png" />
+        <ul style="text-align: justify;">
+            <li>Indoor and outdoor playing Courts and sports area.<br></li>
+            <li>Amenities for indoor physical activities like table tennis, chess and board games</li>
+        </ul>
+    </div>
+</div>
+
+<div  id="book"  style="flex:40%">
+    <h1 style="background-color: darkcyan;">Book A Seat</h1>
+    <form style="background-color: cyan;">
+        <div >
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Name"
+            required="required"
+          />
+        </div>
+        <div >
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email"
+            required="required"
+          />
+        </div>
+        <div >
+          <select
+            class="custom-select"
+            style="height: 47px"
+          >
+            <option selected>Select A Class</option>
+            <option value="1">Class 1</option>
+            <option value="2">Class 1</option>
+            <option value="3">Class 1</option>
+          </select>
+        </div>
+        <div>
+          <button
+            class="btn1"
+            type="submit"
+          >
+            Book Now
+          </button>
+        </div>
+      </form>
+</div>
+    
+
+</div>
+
+
+
+
+
+<!-- Footer -->
+<div id="contact" class="footer">
+  <h2 style=" font-size: 30px;">Get in Touch</h2>
+  <div style="display: flex; font-family: cursive; justify-content: center;align-self: center; ; width:100%;">
+    
+    <div style="margin: 20px; padding:10px;">
+      <h5 >Address</h5>
+      <p>123 Street, New York, USA</p>
+    </div>
+  
+    
+    <div style="margin: 20px; padding:10px">
+      <h5 >Email</h5>
+      <p>info@example.com</p>
+    </div>
+  
+    
+    <div style="margin: 20px; padding:10px; ">
+      <h5 >Phone</h5>
+      <p>+012 345 67890</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
